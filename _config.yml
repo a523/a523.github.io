@@ -27,9 +27,8 @@ twitter_username: chjgreen
 github_username:  a523
 
 # Build settings
-theme: jekyll-theme-minimal
 markdown: GFM
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: niklasbuschmann/contrast@v2.11
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
