@@ -25,10 +25,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://a523.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chjgreen
 github_username:  a523
-markdown: GFM
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
+markdown: GFM
 plugins:
   - jekyll-feed
 
