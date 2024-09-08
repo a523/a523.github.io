@@ -4,5 +4,3 @@
 layout: home
 title: Home
 ---
-
-Thi is a simple blog built with Jekyll and Github Pages
