@@ -23,8 +23,6 @@ email: chjgreen@hotmail.com
 description: Sharing some personal ideas and notes from a programmer who likes the latest technology, such as AI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://a523.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: chjgreen
-github_username:  a523
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
@@ -34,7 +32,7 @@ date_format: "%B %d, %Y"
 
 show_excerpts: true        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
+show_sidebar: true        # show a sidebar instead of the usual header
 
 # Menu
 
@@ -43,8 +41,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "about.markdown"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+  - {title: Mail, icon: envelope, url: "mailto:chjgreen@hotmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/a523"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
