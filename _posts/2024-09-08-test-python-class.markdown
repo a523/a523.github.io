@@ -2,7 +2,7 @@
 layout: post
 title:  "如何在Python中对Class的方法进行单元测试, 但是避免提供所有 Class 的参数"
 date:   2024-09-08 +0800
-categories: jekyll update
+categories: python
 ---
 为了测试 `MyClass` 中的 `method_to_test` 方法，同时避免提供 `c` 参数，可以使用 `unittest.mock.patch.object` 来模拟 `MyClass` 的初始化过程。这样，你可以在测试中只提供 `a` 和 `b` 参数，而忽略 `c` 参数。
 
